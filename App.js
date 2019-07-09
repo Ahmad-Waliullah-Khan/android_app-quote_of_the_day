@@ -16,6 +16,7 @@ import {
   StatusBar,
   ActivityIndicator,
   ImageBackground,
+  Button
 } from 'react-native';
 
 import {
@@ -69,6 +70,8 @@ export default class App extends React.Component {
        <Text> - {this.state.dataSource.author}</Text>
         </View>
         </ImageBackground>
+        <View>
+        </View>
 
      </View>
    );
